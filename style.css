@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FE2F01;
+    opacity: 0.9;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #FE2F01 26px), repeating-linear-gradient(#ff3f1455, #ff3f14);
+    font-family: 'Roboto', sans-serif;
+}
+
+header .logo-brisa img {
+    max-width: 200px;
+    height: auto;
+}
+
+.logo-brisa {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.local-info{
+    position: relative;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+
+.info h1 {
+    text-align: center;
+    color: #FE2F01;
+}
+
+.info p {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.btn-enviar {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-enviar input {
+    padding: 10px 45px;
+    background-color: #ff3f14;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+}
+footer {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    opacity: .8;
+    transition: 1s;
+}
+
+.rodape a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.rodape:hover {
+    opacity: 1;
+    color: white;
+    text-shadow: black 0 0 20px;
+}
+
+.rodape img{
+    max-width: 16px;
+    height: auto;
+}
