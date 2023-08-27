@@ -4,6 +4,7 @@ let local = {}
 
 function sucess(poss) {
     local = { latitude: poss.coords.latitude, longitude: poss.coords.longitude }
+    document.querySelector('.aqui').textContent = `Latitude: ${poss.coords.latitude} Longitude: ${poss.coords.longitude}`
 }
 
 if ("geolocation" in navigator) {
